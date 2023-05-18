@@ -1,0 +1,111 @@
+header {
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+.navbar1 {
+    display: grid;
+    grid-template-columns: 1fr ;
+     height: 90px;
+     
+     background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
+     opacity: 0.8;
+     color: #fff;
+     
+ } 
+ .navbar1   {
+    
+    width: 100%;
+     }
+     .navbar1 >* {
+        text-align: center;
+     }
+ .heading {  margin-left: 5rem;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;   
+}
+ .navpart1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+ } 
+ .navbar1 >:nth-child(2) {
+  
+    display: block; 
+    text-decoration: none;
+    margin-top: 2.3rem;
+    padding-left: 0rem;
+    
+          
+}
+.navbar1 >:nth-child(2) >li {
+    
+    display: flex;
+    justify-content: center;
+
+   color: black;
+         
+}
+.navbar1 >:nth-child(2) >li>a {
+    
+    color: black;
+          
+ }
+ 
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 450px;
+}
+.webtitle {
+    font-size: 40px;
+    
+    text-align: center;
+}
+.intro{
+    display:block;
+   padding-top: 250px;
+   height: 350px;
+   padding-top: 18rem;
+}
+
+.cv{
+ 
+    margin-top: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+.intro >div >:nth-child(2){
+    width: 80%;
+    height: 1px;
+    display: block;
+      
+    }
+    
+    @keyframes an {
+        
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink  { 
+      }
+    
+   .intro >div >h1 {
+    font-size: 18px;
+   }   
+
+   .navbar1>:nth-child(1) {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    
+ } 
+ .heading {
+    margin-left: 3rem;
+ }

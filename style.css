@@ -1,0 +1,245 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+a{
+    color: #fff;
+   }
+   
+.heading {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1rem;
+     
+    margin-bottom: auto;
+}
+
+ 
+.navbar1 {
+  display: grid;
+  grid-template-columns: 1fr   1fr ;
+    height: 90px;
+    width: 100%;
+    padding: 1rem;
+    
+   background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
+   opacity: 0.8;
+   color: #fff;
+   
+} 
+.navbar1 >:nth-child(2) {
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    align-content: center;
+    text-decoration: none;
+    
+     
+     
+}
+.navbar1 >:nth-child(2) >li  {
+    font-size: 1.5rem;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+     
+    text-align: center;
+     
+    
+}
+.navbar1 >:nth-child(2)  :hover  {
+   background-color:  grey;
+     border-radius: 10%;    
+     cursor: pointer;
+}
+
+
+
+.navbar1 >:nth-child(2) >:nth-child(3)   ul {
+    display: none;
+      
+}
+.navbar1 >:nth-child(2) >:nth-child(3):hover ul {
+    transition: all;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 0.5rem;
+    margin-left: -48px;
+     padding-right: 48px;
+}
+ 
+.navbar1 >:nth-child(2) >:nth-child(3)> ul:hover {
+   
+ background-color: rgb(77, 154, 185) ;
+    
+     
+}
+ p{
+    font-family: 'Raleway', sans-serif;
+ }
+
+.newimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.newimg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./stars-about.jpg);
+     
+    background-size: cover;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+     
+    align-items: center;
+    justify-content: center;
+     padding-top: 15rem;
+}
+
+.intro >div >:nth-child(2){
+  
+/* DEMO-SPECIFIC STYLES */
+ 
+ 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+      /* Gives that scrolling effect as the typing happens */
+      /* Adjust as needed */
+    animation: 
+      an 5s steps(45, end),
+      blink  .5s step-end infinite;
+  
+}
+
+@keyframes an {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink  {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(146, 146, 146) }
+  }
+
+  .cv{
+    display: flex;
+    margin-top: 100px;
+  }
+
+
+  .outercircle{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color:#54B4D3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+ 
+  .part{ 
+     
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillset {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem ;
+     
+
+  }
+  .intro +div {
+    padding-top: 5rem;
+  }
+
+
+  /* about */
+ 
+.aboutme > * {
+    position: relative;
+    padding-top: 100px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.footer{
+  position: absolute;
+  margin-top: 2rem;
+  background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
+   height: 100px;
+   width: 100%;
+    
+    
+   
+}
+.footer >div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+
+}
+
+.ft{
+  
+    height: 100px;
+   width: 80%;
+    
+}
+.ft >div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+ 
+ 
