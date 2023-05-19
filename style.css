@@ -1,20 +1,33 @@
+body {
+  background-color: #000000;
+}
 header {
     position: fixed;
     width: 100%;
     z-index: 50;
 }
 a{
-    color: #fff;
+    color: #ffffff
    }
-   
-.heading {
-    font-size: 32px;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 1rem;
-     
-    margin-bottom: auto;
+
+li {
+  color:#ffffff;
+  font-weight: 400;
 }
 
+   
+.heading {
+  color:#ffffff;
+    font-size: 32px; 
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+    
+}
+.webtitle{
+  font-family: 'Playfair Display', serif;
+  font-weight: 50;
+  color: #000000;
+}
  
 .navbar1 {
   display: grid;
@@ -23,9 +36,9 @@ a{
     width: 100%;
     padding: 1rem;
     
-   background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
+   background :#000000;
    opacity: 0.8;
-   color: #fff;
+   color: #ffffff;
    
 } 
 .navbar1 >:nth-child(2) {
@@ -42,8 +55,7 @@ a{
     font-size: 1.5rem;
     padding: 8px;
     font-family: 'Raleway', sans-serif;
-     
-    text-align: center;
+       text-align: center;
      
     
 }
@@ -87,7 +99,7 @@ a{
     z-index: -1;
     height: 100vh;
     width: 100%;
-    background-image: url(./stars.jpg);
+    background : black;
     background-repeat: no-repeat;
     background-size: cover;
      
@@ -99,7 +111,7 @@ a{
     z-index: -1;
     height: 100vh;
     width: 100%;
-    background-image: url(./stars-about.jpg);
+    background : black;
      
     background-size: cover;
 
@@ -107,10 +119,13 @@ a{
 .intro{
     display: flex;
     flex-direction: column;
-     
+    background: black;
     align-items: center;
     justify-content: center;
      padding-top: 15rem;
+}
+.intro +div {
+  background-color: #000000;
 }
 
 .intro >div >:nth-child(2){
@@ -150,7 +165,8 @@ a{
     position: relative;
     width: 250px;
     height: 250px;
-    background-color:#54B4D3;
+    background-color :black;
+    border: 8px red solid;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -162,11 +178,12 @@ a{
      
     width: 150px;
     height: 150px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
   }
 
   .skillset {
@@ -174,19 +191,19 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem ;
-     
-
+    background: #000000;
+    margin-top: -1rem;
+   
   }
   .intro +div {
     padding-top: 5rem;
   }
 
-
   /* about */
  
 .aboutme > * {
-    position: relative;
-    padding-top: 100px ;
+    background-color: #000000;
+    
     margin-left: auto;
     margin-right: auto;
     width: 65%;
@@ -205,13 +222,10 @@ a{
 
 .footer{
   position: absolute;
-  margin-top: 2rem;
-  background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
+  
+  background : rgb(255, 255, 255)  ;
    height: 100px;
-   width: 100%;
-    
-    
-   
+   width: 100%;   
 }
 .footer >div {
   display: flex;
@@ -221,7 +235,10 @@ a{
   margin-left: auto;
   margin-right: auto;
   padding-top: 2rem;
-
+  border: #ffffff 1px solid;
+  background-color: #ffffff;
+  opacity: 0.8;
+  
 }
 
 .ft{
@@ -237,8 +254,7 @@ a{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  
-
+ 
 }
 
  
