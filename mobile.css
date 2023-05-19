@@ -3,10 +3,18 @@ header {
     width: 100%;
     z-index: 50;
 }
+a{
+    color: #ffffff
+   }
+
+li {
+  color:#ffffff;
+  font-weight: 400;
+}
 .navbar1 {
     display: grid;
     grid-template-columns: 1fr ;
-     height: 90px;
+     height: 90px;   
      
      background : linear-gradient(to left, rgb(136, 135, 135) , rgb(51, 51, 51));
      opacity: 0.8;
@@ -43,14 +51,9 @@ header {
     display: flex;
     justify-content: center;
 
-   color: black;
+  
          
 }
-.navbar1 >:nth-child(2) >li>a {
-    
-    color: black;
-          
- }
  
 .intro{
     display: flex;
