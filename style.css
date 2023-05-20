@@ -178,7 +178,7 @@ li {
      
     width: 150px;
     height: 150px;
-    background-color: rgb(255, 0, 0);
+    background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -255,6 +255,10 @@ li {
   margin-left: auto;
   margin-right: auto;
  
+}
+
+.display-1 text-info text-capitalize text-center  {
+padding-bottom:5rem;
 }
 
  
